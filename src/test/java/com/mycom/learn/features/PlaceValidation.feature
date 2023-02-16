@@ -14,7 +14,7 @@ Feature: Validate Place API
     |test1|test1   |english |
 
 
-  @DeletePlace
+  @DeletePlace @Regression
   Scenario: Verify if delete api is working correctly or not
     Given User can supply payload in body
     When User can submit request to "DeletePlaceAPI" with "post" http method
